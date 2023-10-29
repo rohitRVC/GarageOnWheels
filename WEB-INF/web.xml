@@ -1,0 +1,23 @@
+<web-app>
+
+<servlet>
+<servlet-name>sonoojaiswal</servlet-name>
+<servlet-class>DemoServ</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>sonoojaiswal</servlet-name>
+<url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>jdbc</servlet-name>
+    <servlet-class>DatabaseAccess</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>jdbc</servlet-name>
+    <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+</web-app>

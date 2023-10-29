@@ -1,0 +1,6 @@
+SELECT denumire, (6371 * acos( cos( radians(45.20327) ) * cos( radians( coord_lat ) ) * cos( radians( 23.7806 ) - radians(coord_long) ) + sin( radians(45.20327) ) * sin( radians(coord_lat) ) )) AS distanta 
+FROM obiective 
+WHERE coord_lat<>'' 
+    AND coord_long<>'' 
+HAVING distanta<50 
+ORDER BY distanta desc
