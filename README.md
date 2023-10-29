@@ -1,3 +1,5 @@
+# Garage On Wheels
+
 # RoadSide-Assistance FInder
 
 ### Introduction
@@ -24,17 +26,11 @@ RoadSide Assistant helps you to find nearest Mechanics, Petrol Pump on ONE CLICK
 * CSS3
 * JavaScript
 * Bootstrap
+* Java
+* Apache Tomcat 10
+* MySQL
 * Google Map API
 * Geolocation API
 
 <img src='./image/roadside_service.png'>
 
-### Built With
-* Bracket 
-* Git
-* Browser
-
-### Authors
-* Vishal Mane
-* Jenis Lawrence
-* Neil Gonsalvies
